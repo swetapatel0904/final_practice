@@ -1,0 +1,30 @@
+{
+  "product": {
+    "id": "12345",
+    "name": "Gadget",
+    "details": {
+      "specs": [
+        {"type": "feature", "description": "Advanced"},
+        {"type": "specification", "value": {"weight": "1kg", "color": ["red", "blue"]}}
+      ],
+      "manufacturer": {
+        "name": "TechCorp",
+        "address": {
+          "street": "123 Tech Lane",
+          "city": "Innovate",
+          "postalCode": {"code": "98765", "country": "CountryX"}
+        }
+      }
+    },
+    "price": {"amount": 299.99, "currency": "USD"},
+    "availability": true,
+    "reviews": [
+      {"user": "JohnDoe", "rating": 4.5, "comment": "Excellent!"},
+      {"user": "JaneSmith", "rating": 4.0, "comment": "Good, but could improve."}
+    ],
+    "dynamicFields": {
+      "customField1": "SomeValue",
+      "customField2": {"nestedField": "AnotherValue"}
+    }
+  }
+}
